@@ -1,0 +1,145 @@
+---
+import { Icon } from "astro-icon/components";
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Astro</title>
+		
+		
+	</head>
+	<body>
+		<div id="wrapper">
+		<h1>Astro-Icon List</h1>
+		<hr>
+
+		<div class="icon-container">
+			<a href="https://www.bajablast.com/">
+				<Icon name="career" width={100} height={100}/>
+			</a>
+			<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores asperiores ullam distinctio odit perferendis, modi magni deserunt officiis doloremque impedit totam possimus iusto laborum. Architecto aliquid sapiente facilis a velit praesentium aspernatur quia quam ducimus repudiandae aut, ex suscipit ipsam commodi obcaecati aliquam sit eligendi officiis aperiam accusantium rerum illo, incidunt dolorem tempora. Nisi vero vel minus? Error nobis quis molestiae delectus deserunt hic facilis nam reprehenderit. Cumque enim vitae fugit quas laudantium laborum aspernatur optio, quibusdam distinctio molestiae mollitia tempore, illum expedita velit, natus esse? Numquam earum minima blanditiis illum! Animi provident accusamus doloribus in fuga repellat culpa excepturi.</p>
+		</div>
+		
+		<div class="icon-container">
+			<a href="https://www.boredbutton.com/">
+				<Icon name="design" width={100} height={100}/>
+			</a>
+			<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores asperiores ullam distinctio odit perferendis, modi magni deserunt officiis doloremque impedit totam possimus iusto laborum. Architecto aliquid sapiente facilis a velit praesentium aspernatur quia quam ducimus repudiandae aut, ex suscipit ipsam commodi obcaecati aliquam sit eligendi officiis aperiam accusantium rerum illo, incidunt dolorem tempora. Nisi vero vel minus? Error nobis quis molestiae delectus deserunt hic facilis nam reprehenderit. Cumque enim vitae fugit quas laudantium laborum aspernatur optio, quibusdam distinctio molestiae mollitia tempore, illum expedita velit, natus esse? Numquam earum minima blanditiis illum! Animi provident accusamus doloribus in fuga repellat culpa excepturi.</p>
+		</div>
+		
+		<div class="icon-container">
+			<a href="https://komaedalovemail.tumblr.com/hollow">
+				<Icon name="programming" width={100} height={100}/>
+			</a>
+			<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores asperiores ullam distinctio odit perferendis, modi magni deserunt officiis doloremque impedit totam possimus iusto laborum. Architecto aliquid sapiente facilis a velit praesentium aspernatur quia quam ducimus repudiandae aut, ex suscipit ipsam commodi obcaecati aliquam sit eligendi officiis aperiam accusantium rerum illo, incidunt dolorem tempora. Nisi vero vel minus? Error nobis quis molestiae delectus deserunt hic facilis nam reprehenderit. Cumque enim vitae fugit quas laudantium laborum aspernatur optio, quibusdam distinctio molestiae mollitia tempore, illum expedita velit, natus esse? Numquam earum minima blanditiis illum! Animi provident accusamus doloribus in fuga repellat culpa excepturi.</p>
+		</div>
+		
+		<div class="icon-container">
+			<a href="https://archive.org/">
+				<Icon name="resume" width={100} height={100}/>
+			</a>
+			<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores asperiores ullam distinctio odit perferendis, modi magni deserunt officiis doloremque impedit totam possimus iusto laborum. Architecto aliquid sapiente facilis a velit praesentium aspernatur quia quam ducimus repudiandae aut, ex suscipit ipsam commodi obcaecati aliquam sit eligendi officiis aperiam accusantium rerum illo, incidunt dolorem tempora. Nisi vero vel minus? Error nobis quis molestiae delectus deserunt hic facilis nam reprehenderit. Cumque enim vitae fugit quas laudantium laborum aspernatur optio, quibusdam distinctio molestiae mollitia tempore, illum expedita velit, natus esse? Numquam earum minima blanditiis illum! Animi provident accusamus doloribus in fuga repellat culpa excepturi.</p>
+		</div>
+		
+		<div class="icon-container">
+			<a href="https://www.youtube.com/">
+				<Icon name="certificate" width={100} height={100}/>
+			</a>
+			<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores asperiores ullam distinctio odit perferendis, modi magni deserunt officiis doloremque impedit totam possimus iusto laborum. Architecto aliquid sapiente facilis a velit praesentium aspernatur quia quam ducimus repudiandae aut, ex suscipit ipsam commodi obcaecati aliquam sit eligendi officiis aperiam accusantium rerum illo, incidunt dolorem tempora. Nisi vero vel minus? Error nobis quis molestiae delectus deserunt hic facilis nam reprehenderit. Cumque enim vitae fugit quas laudantium laborum aspernatur optio, quibusdam distinctio molestiae mollitia tempore, illum expedita velit, natus esse? Numquam earum minima blanditiis illum! Animi provident accusamus doloribus in fuga repellat culpa excepturi.</p>
+		</div>
+		
+		
+	</div>	
+	</body>
+
+	<style>
+		#wrapper
+		{
+			max-width:1200px;
+			margin:auto;
+		}
+
+		h1
+		{
+			text-align: center;
+		}
+
+		.icon-container
+		{
+			background-color:none;
+			display:flex;
+			flex-direction: row;
+			justify-content: space-between;
+			align-items: top;
+			line-height:1.7;
+			gap:2rem;
+		}
+
+		[data-icon="career"]{
+			color:black;
+			min-width: 100px;
+			margin:0.5rem;
+			padding:0.5rem;
+			transition:all 0.25s;
+		}
+
+		[data-icon="career"]:hover{
+			transform:rotate(26deg);
+		}
+		[data-icon="career"]{
+			color:black;
+			min-width: 100px;
+			margin:0.5rem;
+			padding:0.5rem;
+			transition:all 0.25s;
+		}
+
+		[data-icon="certificate"]:hover{
+			transform:rotate(26deg);
+		}
+		[data-icon="certificate"]{
+			color:black;
+			min-width: 100px;
+			margin:0.5rem;
+			padding:0.5rem;
+			transition:all 0.25s;
+		}
+
+		[data-icon="resume"]:hover{
+			transform:rotate(26deg);
+		}
+		[data-icon="resume"]{
+			color:black;
+			min-width: 100px;
+			margin:0.5rem;
+			padding:0.5rem;
+			transition:all 0.25s;
+		}
+
+		[data-icon="design"]:hover{
+			transform:rotate(26deg);
+		}
+		[data-icon="design"]{
+			color:black;
+			min-width: 100px;
+			margin:0.5rem;
+			padding:0.5rem;
+			transition:all 0.25s;
+		}
+
+		[data-icon="programming"]:hover{
+			transform:rotate(26deg);
+		}
+		[data-icon="programming"]{
+			color:black;
+			min-width: 100px;
+			margin:0.5rem;
+			padding:0.5rem;
+			transition:all 0.25s;
+		}
+	</style>
+</html>
